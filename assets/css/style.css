@@ -1,0 +1,302 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+div {
+    display: inline-block;
+}
+
+#header {
+    position: sticky 1px;
+    background-color: #0090E3;
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+
+#logo {
+    margin-left: 30px;
+    margin-top: -22px;
+    width: 100px;
+    height: 100px;
+}
+
+#main {
+    width: 100%;
+    height: 1000px
+}
+
+#content {
+    width: 400px;
+}
+
+#upper-title {
+    margin-left: 100px;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 1000px) {
+    #upper-title {
+        margin-left: 10px;
+    }
+  }
+
+
+#lower-title {
+    display: block;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 1000px) {
+    #lower-title {
+        margin-left: 10px;
+    }
+  }
+
+
+.titel-gegevens {
+    font-size: 20px;
+    color: #2C579E;
+}
+
+.titel-vraag {
+    font-size: 19.6px;
+    color: #4FB5FF;
+}
+
+#text-mm {
+    width: 1500px;
+    line-height: 40px;
+}
+    
+.left {
+    padding-right: 10px;
+    text-align: right;
+    color: #5e5e5e;
+    display: inline-block;
+    width: 300px;
+    transition: ease all 250ms;
+    vertical-align: top;
+}
+
+@media only screen and (max-width: 1000px) {
+    .left {
+        margin-left: 10px;
+        line-height: 25px;
+        text-align: left;
+        display:block;
+    }
+  }
+
+.right {
+    color: #5e5e5e;
+    display: inline-block;
+    vertical-align: top;
+    width: 1180px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .right {
+        margin-left: 10px;
+        line-height: 25px;
+        display:block;
+        margin-bottom: 10px;
+    }
+  }
+
+.titel-punt {
+    font-size: 20px;
+    color: #FF6600;
+}
+
+#titel-vraag {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4FB5FF;
+}
+
+#naam {
+    width: 65px;
+}
+
+#huis-nr {
+    width: 50px;
+}
+
+#huis-nr-toev {
+    width: 50px;
+}
+
+#color-orange {
+    color: #FF6600;
+}
+
+#custom-color {
+    width: 100px;
+    /* margin-top: 10px; */
+}
+
+#custom-color-txt {
+    line-height: 40px;
+    margin-top: -10px;
+}
+
+#haakje {
+    color: #0090E3;
+}
+
+#opmaak {
+    color: #0090E3;
+}
+
+
+
+@media only screen and (max-width: 710px) {
+    #ww-text {
+      margin-left: -15px;
+    }
+  }
+
+#ww {
+    line-height: 40px;
+}
+
+#password {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+#zes-karakters {
+    /* width: 750px; */
+    /* text-align: right; */
+    color: #5e5e5e;
+    /* margin-top: -9px; */
+    /* margin-bottom: 6px; */
+    /* line-height: normal; */
+}
+
+#verder {
+    margin-top: 15px;
+    margin-left: 314px;
+    box-shadow: 0 3px 0 0 #008b00;
+    background-color: #00BA01;
+    color: #FFF;
+    font-size: large;
+    font-weight: bold;
+    border: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-radius: 6px;
+    transition-duration: 75ms;
+}
+
+#verder:hover {
+    opacity: 85%;
+}
+
+#verder:active {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 0 #008b00;
+    opacity: 75%;
+}
+
+#footer {
+    color: #fff;
+    width: 100%;
+    height: 450px;
+    background-color: #0090E3;
+}
+
+#footer-txt1 {
+    width: 500px;
+    padding-top: 55px;
+    margin-left: 250px;
+    font-size: x-large;
+    display: inline-block;
+}
+
+#text-footer-mm {
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-left: 15px;
+}
+
+#footer-txt2 {
+    padding-top: 55px;
+    margin-left: 150px;
+    font-size: x-large;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#phone-photo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.fontt {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+#li-text {
+    line-height: 40px;
+}
+
+.checkmark {
+    margin-right: 12px;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+
+}
+
+#underfooter {
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+#underfooter-logo-thuiswinkelwaarborg {
+    margin-right: 10px;
+    margin-bottom: 15px;
+    width: 50px;
+    height: 50px;
+}
+
+#underfooter-logo-ideal {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 60px;
+    height: 50px;
+}
+
+#underfooter-logo-mastercard {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 66px;
+    height: 50px;
+}
+
+#underfooter-logo-visa {
+    margin-right: 10px;
+    width: 85px;
+    height: 85px;
+}
+
+#underfooter-logo-paypal {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    width: 140px;
+    height: 40px;
+}
+#underfooter-logo-postnl {
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
